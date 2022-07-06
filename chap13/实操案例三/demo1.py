@@ -1,0 +1,13 @@
+# coding:utf-8
+# @Time : 2022/6/27 17:40 
+# @Author : clf
+# @File : demo1.py.py 
+# @Software: PyCharm
+num=int(input('请输入一个十进制的整数：')) #将str类型转换成int类型
+print(num,'的二进制数为：',bin(num)) #第一种写法
+print(str(num)+'的二进制数为：'+bin(num)) #第二种写法，使用“+”作为连接符（+左右均为str类型）
+print('%s的二进制数为：%s'%(num,bin(num))) #第三种写法，格式化字符串
+print('{0}的二进制数为{1}'.format(num,bin(num))) #第三种写法，格式化字符串
+print(f'{num}的二进制数为：{bin(num)}') #第三种写法，格式化字符串
+
+print('------------------------------------')
